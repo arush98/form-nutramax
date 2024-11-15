@@ -5,6 +5,7 @@ The goal was to create a simple, responsive, and ADA-compliant country selection
 - Submit the form and display a confirmation message.
 
 This project focused on accessibility, user experience, and error handling while ensuring the code is maintainable and modular.
+
 ![Country Selection Form](assets/form.png)
 
 ## Key Decisions and Reasoning
@@ -55,35 +56,11 @@ Solution:
 Added a "Loading countries..." placeholder while the API fetches data.
 Displayed an error message and alerted the user if the API call failed.
 
-## 2. Accessibility Testing
-Challenge: Ensuring the form is fully accessible for screen readers and keyboard users.
-Solution:
-Used aria-labels and tested keyboard navigation to verify compliance with WCAG 2.1 guidelines.
-
-## 3. Validation Logic
+## 2. Validation Logic
 Challenge: Dynamically enabling the submit button only when all fields are valid.
 Solution:
 Added an input and change event listener to check form completion dynamically.
 Used both HTML5 validation (e.g., required, pattern) and JavaScript for robust error handling.
-
-## 4. Cross-Origin Restrictions
-Challenge: Some browsers might block API requests due to CORS issues.
-Solution:
-Tested the form in a local server environment (e.g., VS Code Live Server) to avoid restrictions during development.
-
-## Lessons Learned
-Modularity is Key:
-Breaking the JavaScript code into smaller, reusable functions (e.g., populateCountries, checkFormCompletion) made the code easier to read and maintain.
-
-## Accessibility Needs Attention:
-Designing with WCAG 2.1 in mind ensures the form is usable by a broader audience.
-
-## Error Handling is Crucial:
-Anticipating and handling errors (e.g., API failures) improves the robustness and user experience of the application.
-
-## Conclusion
-This project helped demonstrate the importance of balancing functionality, accessibility, and user experience. The decisions made were focused on creating a clean, responsive, and accessible form that works seamlessly across devices and browsers.
-
 
 
 ## Installation
