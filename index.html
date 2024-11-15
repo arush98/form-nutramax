@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Country Selection Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Country Selection Form</h1>
+    <form id="country-form" aria-label="Country Selection Form">
+      <label for="first-name">First Name:</label>
+      <input id="first-name" name="firstName" type="text" placeholder="First Name" required aria-required="true">
+
+      <label for="last-name">Last Name:</label>
+      <input id="last-name" name="lastName" type="text" placeholder="Last Name" required aria-required="true">
+
+      <label for="phone">Phone Number:</label>
+      <input id="phone" name="phone" type="tel" placeholder="Phone Number" required aria-required="true">
+
+      <label for="email">Email Address:</label>
+      <input id="email" name="email" type="email" placeholder="Email Address" required aria-required="true">
+
+      <label for="country">Country of Birth:</label>
+      <select id="country" name="country" required aria-required="true">
+        <option value="" disabled selected>Select a country</option>
+      </select>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <!-- Separate box for confirmation -->
+    <div id="confirmation-box" class="hidden">
+      <h2>Submission Confirmation</h2>
+      <div class="confirmation-details">
+        <p><strong>First Name:</strong> <span id="confirm-name"></span></p>
+        <p><strong>Email Address:</strong> <span id="confirm-email"></span></p>
+        <p><strong>Selected Country:</strong> <span id="confirm-country"></span></p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
