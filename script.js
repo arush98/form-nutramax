@@ -4,10 +4,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const confirmationBox = document.getElementById('confirmation-box');
   const submitButton = form.querySelector('button[type="submit"]');
 
-  // Disable submit button initially
+
   submitButton.disabled = true;
 
-  // Function to check if all fields are filled
+
   const checkFormCompletion = () => {
       const firstName = document.getElementById('first-name').value.trim();
       const lastName = document.getElementById('last-name').value.trim();
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
   form.addEventListener('input', checkFormCompletion);
   form.addEventListener('change', checkFormCompletion);
 
-  // Fetch countries and populate the dropdown
+
   const populateCountries = async () => {
       selectDrop.innerHTML = '<option>Loading countries...</option>';
       const spinner = document.createElement('div');

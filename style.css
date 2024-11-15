@@ -61,14 +61,12 @@ button:hover {
   background-color: #004d40;
 }
 
-/* Disabled Button Styles */
 button:disabled {
   background-color: #ccc;
   cursor: not-allowed;
   color: #666;
 }
 
-/* Confirmation Box Styles */
 #confirmation-box {
   margin-top: 30px;
   padding: 20px;
@@ -81,7 +79,6 @@ button:disabled {
   margin: 10px 0;
 }
 
-/* Spinner for Loading Animation */
 .spinner {
   border: 4px solid #f3f3f3;
   border-top: 4px solid var(--primary-color);
@@ -101,7 +98,6 @@ button:disabled {
   }
 }
 
-/* Accessibility */
 input:focus, select:focus, button:focus {
   outline: 2px solid var(--primary-color);
 }
