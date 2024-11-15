@@ -1,9 +1,11 @@
 ## Objective
 The goal was to create a simple, responsive, and ADA-compliant country selection form that allows users to:
-Enter personal information.
-Select a country from a dynamically populated dropdown list.
-Submit the form and display a confirmation message.
+- Enter personal information.
+- Select a country from a dynamically populated dropdown list.
+- Submit the form and display a confirmation message.
+
 This project focused on accessibility, user experience, and error handling while ensuring the code is maintainable and modular.
+![Country Selection Form](assets/form.png)
 
 ## Key Decisions and Reasoning
 
@@ -90,7 +92,7 @@ This project helped demonstrate the importance of balancing functionality, acces
 
 2. cd to form-nutramax
 
-3. On terminal run index.html
+3. On terminal open index.html
 
 
 
