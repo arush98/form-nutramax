@@ -86,13 +86,13 @@ This project helped demonstrate the importance of balancing functionality, acces
 
 ## Installation
 1. Clone this repository:
-   git clone https://github.com/username/country-selection-form.git
+   git clone https://github.com/arush98/country-selection-form.git
 
 2. cd to form-nutramax
 
-3. Install the "Live Server" extension in VS Code.
+3. On terminal run index.html
 
-4. Click on the (Go Live) Live server at bottom right of VS code. 
+
 
 
    
